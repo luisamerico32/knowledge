@@ -39,7 +39,7 @@ export default {
 
 			if(!userData) {
 				this.validatingToken = false
-				this.$store.push({ name: 'auth' })
+				this.$router.push({ name: 'auth' })
 				return
 			}
 
